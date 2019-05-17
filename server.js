@@ -22,3 +22,9 @@ console.log('8080 is the magic port');
 app.get('/', function(req, res) {
   res.render('pages/home', {});
 });
+app.get('/resume', function(req, res) {
+  res.render('pages/resume', {});
+});
+app.get('/cover', function(req, res) {
+  res.render('pages/cover_letter', {});
+});
