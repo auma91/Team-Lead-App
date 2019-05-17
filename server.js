@@ -20,5 +20,5 @@ app.listen(port, function() {
 console.log('8080 is the magic port');
 
 app.get('/', function(req, res) {
-  res.render('./views/pages/home', {});
+  res.render('pages/home', {});
 });
